@@ -2,7 +2,7 @@
 #### By Parmida Hooshang
 
 ### Overview:
-+ This simple tool helps you organize all the files in a folder and its subfolders by their last-modified dates. After running this program, there will be a folder for each year in which a file has been modified, and in each folder, the files will be seperated into at most five groups: photos, videos, docs, audios, others.
++ This simple tool helps you organize all the files in a folder and its subfolders by their last-modified dates. After running this program, there will be a folder in the destination for each year in which a file has been modified, and in each folder, the files will be separated into at most five groups: photos, videos, docs, audios, and others. Note that the original files will remain untouched.
 
     |Folder|Formats|
     |---|---|
@@ -22,7 +22,7 @@
 + Paste the command below:
     + Linux/Mac: `$ python3 organizeFiles.py src_folder_path dst_folder_path`
     + Windows: `> python organizeFiles.py src_folder_path dst_folder_path`
-+ `src_folder_path` is where the original files and folders are locatetd and `dst_folder_path` is where you want the organized folders located.
++ `src_folder_path` is where the original files and folders are located and `dst_folder_path` is where you want the organized folders located.
 + An example on windows: `> python organizeFiles.py F:\testing\bigFolder F:\destination`
 
 ### Example
