@@ -3,10 +3,6 @@ import re
 import sys
 import time
 
-BLACK = '\033[30m'
-BRIGHT_GREEN = '\033[92m'
-RESET = '\033[0m'  # called to return to standard terminal text color
-
 source = sys.argv[1]
 dest = sys.argv[2]
 
